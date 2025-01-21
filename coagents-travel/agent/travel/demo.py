@@ -29,7 +29,7 @@ def main():
     port = int(os.getenv("PORT", "8000"))
     uvicorn.run(
         "travel.demo:app",
-        host="121:0:0:1",
+        host="localhost",
         port=port,
         reload=True,
         reload_dirs=(
