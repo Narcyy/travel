@@ -18,7 +18,7 @@
         ]
       }
     },
-    "postCreateCommand": "npm install --prefix frontend && pip install -r backend/requirements.txt",
+    "postCreateCommand": "npm install --prefix ui && pip install -r agent/requirements.txt",
     "portsAttributes": {
       "3000": {
         "label": "Frontend (Next.js)"
