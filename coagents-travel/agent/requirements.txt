@@ -1,6 +1,9 @@
 fastapi
-uvocorn
+uvicorn
 openai
-dotenv
+python-dotenv
 langchain
 langgraph
+copilotkit
+googlemaps
+poetry
